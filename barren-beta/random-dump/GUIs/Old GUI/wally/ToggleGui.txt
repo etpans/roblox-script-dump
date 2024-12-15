@@ -1,0 +1,10 @@
+function onKeyPress(inputObject, gameProcessedEvent)
+if inputObject.KeyCode == Enum.KeyCode.T then
+if game.CoreGui.ScreenGui.Container.Visible == false then
+game.CoreGui.ScreenGui.Container.Visible = true
+else
+game.CoreGui.ScreenGui.Container.Visible = false
+end
+end
+end
+game:GetService("UserInputService").InputBegan:connect(onKeyPress)

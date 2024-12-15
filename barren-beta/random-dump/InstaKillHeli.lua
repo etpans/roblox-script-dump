@@ -1,0 +1,1 @@
+game:GetService("Workspace").Chad.Humanoid.Health = 0
